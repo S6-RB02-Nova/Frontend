@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "prettier"
+    ],
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error",
+      "no-console": [2, { "allow": ["warn", "error", "info"] }]
+    }
+}
